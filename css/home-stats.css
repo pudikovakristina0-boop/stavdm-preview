@@ -1,0 +1,195 @@
+.impact-stats {
+  display: grid;
+  grid-template-columns: minmax(300px, .72fr) minmax(0, 1.28fr);
+  gap: 24px;
+  padding: 40px var(--home-gutter) 70px;
+  background: #f7f8f5;
+}
+
+.impact-primary,
+.impact-visual {
+  min-height: 440px;
+}
+
+.impact-primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(30px, 4vw, 55px);
+  background: linear-gradient(145deg, #101510 0%, #203e28 100%);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.impact-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 135px;
+  height: 9px;
+  background: var(--lime);
+}
+
+.impact-primary > strong {
+  display: block;
+  font: 500 clamp(92px, 11vw, 160px)/.78 "Manrope", sans-serif;
+  letter-spacing: -.1em;
+  margin-left: -.08em;
+}
+
+.impact-primary .impact-label {
+  margin: 26px 0 0;
+  font: 600 clamp(19px, 1.7vw, 26px)/1.25 "Manrope", sans-serif;
+  letter-spacing: -.045em;
+}
+
+.impact-primary .impact-copy {
+  max-width: 430px;
+  margin: 14px 0 0;
+  color: rgba(255, 255, 255, .72);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.impact-visual {
+  position: relative;
+  overflow: hidden;
+  background: var(--soft);
+}
+
+.impact-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 18, 11, .03), rgba(10, 18, 11, .28));
+  pointer-events: none;
+}
+
+.impact-visual > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform .7s ease;
+}
+
+.impact-stats:hover .impact-visual > img {
+  transform: scale(1.025);
+}
+
+.impact-card {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 142px;
+  padding: 24px 30px;
+}
+
+.impact-card strong {
+  font: 600 clamp(43px, 5vw, 66px)/.95 "Manrope", sans-serif;
+  letter-spacing: -.07em;
+}
+
+.impact-card span {
+  margin-top: 13px;
+  font: 600 clamp(15px, 1.35vw, 19px)/1.2 "Manrope", sans-serif;
+  letter-spacing: -.035em;
+}
+
+.impact-years {
+  top: 38%;
+  right: 0;
+  width: 44%;
+  background: #f7f8f5;
+  color: var(--ink);
+}
+
+.impact-years strong {
+  color: var(--green);
+}
+
+.impact-area {
+  left: 0;
+  bottom: 0;
+  width: 54%;
+  background: var(--forest);
+  color: #fff;
+}
+
+.impact-area strong {
+  color: var(--lime);
+}
+
+@media (max-width: 900px) {
+  .impact-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-primary {
+    min-height: 350px;
+  }
+
+  .impact-visual {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 600px) {
+  .impact-stats {
+    gap: 12px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .impact-primary {
+    min-height: 330px;
+    padding: 26px;
+  }
+
+  .impact-primary > strong {
+    font-size: 104px;
+  }
+
+  .impact-primary .impact-label {
+    margin-top: 22px;
+    font-size: 20px;
+  }
+
+  .impact-primary .impact-copy {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+
+  .impact-visual {
+    min-height: 400px;
+  }
+
+  .impact-card {
+    width: calc(100% - 44px);
+    min-height: 132px;
+    padding: 21px 24px;
+  }
+
+  .impact-years {
+    top: auto;
+    right: 0;
+    bottom: 132px;
+  }
+
+  .impact-area {
+    left: 0;
+    bottom: 0;
+  }
+
+  .impact-card strong {
+    font-size: 49px;
+  }
+
+  .impact-card span {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,211 @@
+.home .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(16, 21, 16, .08);
+}
+
+.green-projects-photo {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background:
+    linear-gradient(112deg, rgba(239, 241, 238, .94), rgba(239, 241, 238, .84)),
+    url("../assets/optimized/projects/bbc-1-plus.webp") center / cover;
+  filter: grayscale(1);
+  transform: scaleX(-1);
+}
+
+.home .about-services > article {
+  border-radius: 0;
+}
+
+.company-stats {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  width: calc(100% - 14vw);
+  max-width: 1490px;
+  min-height: clamp(138px, 10vw, 172px);
+  margin: clamp(-86px, -5vw, -58px) auto;
+  padding: 0 clamp(26px, 4vw, 64px);
+  border: 0;
+  border-radius: 18px;
+  background:
+    linear-gradient(100deg, rgba(26, 65, 37, .9), rgba(56, 102, 65, .76)),
+    url("../assets/optimized/projects/galvani-home.webp") center 56% / cover no-repeat;
+  color: #fff;
+  box-shadow: 0 22px 48px rgba(16, 21, 16, .24);
+}
+
+.company-stats article {
+  min-width: 0;
+  margin: clamp(20px, 2.5vw, 32px) 0;
+  padding: clamp(8px, 1.3vw, 18px) clamp(18px, 2vw, 30px);
+  border-left: 1px solid rgba(255, 255, 255, .28);
+  text-align: center;
+}
+
+.company-stats article:first-child { border-left: 0; }
+
+.company-stat-value {
+  display: block;
+  color: #fff;
+  font: 600 clamp(40px, 5vw, 72px)/.9 "Manrope", Arial, sans-serif;
+  letter-spacing: -.075em;
+  font-variant-numeric: tabular-nums;
+}
+
+.company-stats article span {
+  display: block;
+  max-width: 150px;
+  margin: 14px auto 0;
+  color: rgba(255, 255, 255, .72);
+  font: 600 10px/1.45 "Manrope", Arial, sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.home .map-heading .heading-accent {
+  color: var(--green);
+}
+
+/* Samostatný tmavý blok dáva portfóliu vlastnú vizuálnu váhu. */
+.home-projects-panel {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
+  padding: clamp(28px, 3vw, 44px) max(28px, 7vw) clamp(32px, 3.5vw, 50px);
+  background: transparent;
+  color: #fff;
+}
+
+.home-projects-panel .home-projects-title {
+  margin: 0 0 12px;
+  color: #386641 !important;
+  text-shadow: none;
+}
+
+.home-projects-panel .home-project-card {
+  height: clamp(230px, 18vw, 285px);
+  border-radius: 0;
+}
+
+/* Názov realizácie a lokalita sú ukotvené hore na fotografii. */
+.home-projects-panel .home-project-card::after {
+  background: linear-gradient(
+    180deg,
+    rgba(6, 15, 8, .84) 0%,
+    rgba(6, 15, 8, .38) 34%,
+    rgba(6, 15, 8, .02) 68%
+  );
+}
+
+.home-projects-panel .home-project-card:hover::after,
+.home-projects-panel .home-project-card:focus-visible::after {
+  background: linear-gradient(
+    180deg,
+    rgba(32, 75, 43, .92) 0%,
+    rgba(32, 75, 43, .4) 38%,
+    rgba(6, 15, 8, .03) 72%
+  );
+}
+
+.home-projects-panel .home-project-card > div {
+  top: clamp(22px, 2vw, 30px);
+  bottom: auto;
+}
+
+.home-projects-panel .project-slider-footer { margin-top: 2px; }
+
+.home-projects-panel .all-projects {
+  color: #386641;
+  border-bottom-color: #386641;
+}
+
+.home .nav-contact,
+.home .button {
+  border-radius: 0;
+}
+
+.home .main-nav .nav-contact {
+  height: auto;
+  padding: 15px 20px;
+  display: inline-flex;
+  align-items: center;
+  background: #6a994e;
+  color: #fff;
+  box-shadow: none;
+  font: 700 10px "Manrope", Arial, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.home .main-nav .nav-contact:hover,
+.home .main-nav .nav-contact:focus-visible {
+  background: #a7c957;
+  color: #101510;
+  box-shadow: 0 7px 16px rgba(56, 102, 65, .2);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.home .reference-hero a,
+.home .green-intro > a,
+.home .all-projects {
+  display: inline-flex !important;
+  align-items: center;
+  width: fit-content;
+  padding: 12px 16px;
+  border-radius: 0;
+}
+
+.home .reference-hero .hero-cta {
+  border: 2px solid #a7c957 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none;
+}
+
+.home .green-intro > a,
+.home .all-projects {
+  border: 1px solid #386641 !important;
+  background: rgba(247, 248, 245, .72);
+}
+
+.home .reference-hero a:hover,
+.home .reference-hero a:focus-visible {
+  background: #fff;
+  color: #386641;
+  outline: none;
+}
+
+.home .reference-hero .hero-cta:hover,
+.home .reference-hero .hero-cta:focus-visible {
+  border-color: #a7c957 !important;
+  background: #a7c957 !important;
+  color: #101510 !important;
+}
+
+.home .green-intro > a:hover,
+.home .green-intro > a:focus-visible,
+.home .all-projects:hover,
+.home .all-projects:focus-visible {
+  background: #386641;
+  color: #fff !important;
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .company-stats {
+    width: calc(100% - 44px);
+    min-height: 0;
+    margin: -30px auto 48px;
+    padding: 0 22px;
+    grid-template-columns: 1fr;
+  }
+  .company-stats article { margin: 0; padding: 23px 0; border-left: 0; border-top: 1px solid rgba(255, 255, 255, .28); }
+  .company-stats article:first-child { border-top: 0; }
+  .company-stat-value { font-size: 48px; }
+}

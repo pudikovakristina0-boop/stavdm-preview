@@ -1,0 +1,354 @@
+/* Spoločný vizuál projektových kariet na landing page a v katalógu. */
+.projects-page .realization-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.projects-page .realization-card {
+  min-width: 0;
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: 0 14px 34px rgba(20, 35, 23, 0.11);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.projects-page .realization-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 25px 48px rgba(20, 35, 23, 0.18);
+}
+
+.realization-card-link,
+.home-project-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: var(--ink);
+  color: #fff;
+}
+
+.realization-card-link {
+  aspect-ratio: 0.78 / 1;
+  min-height: 480px;
+}
+
+.realization-card-link::after,
+.home-project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(6, 15, 8, 0.88),
+    rgba(6, 15, 8, 0.03) 66%
+  );
+  transition: background 0.35s ease;
+}
+
+.realization-card-link > img,
+.home-project-card > img {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  display: block;
+  object-fit: cover;
+  transition:
+    transform 0.6s ease,
+    filter 0.35s ease !important;
+}
+
+.realization-card-link:hover > img,
+.realization-card-link:focus-visible > img,
+.home-project-card:hover > img,
+.home-project-card:focus-visible > img {
+  transform: scale(1.045);
+  filter: saturate(1.08);
+}
+
+.projects-page .realization-card-link > img {
+  filter: brightness(0.9) contrast(1.08) saturate(0.95);
+}
+
+.projects-page .realization-card-link:hover > img,
+.projects-page .realization-card-link:focus-visible > img {
+  filter: brightness(0.84) contrast(1.12) saturate(1.02);
+}
+
+.home .three-projects .home-project-card > img {
+  filter: brightness(0.7);
+}
+
+.home .three-projects .home-project-card:hover > img,
+.home .three-projects .home-project-card:focus-visible > img {
+  filter: brightness(0.64) saturate(1.04);
+}
+
+.realization-card-link:hover::after,
+.realization-card-link:focus-visible::after,
+.home-project-card:hover::after,
+.home-project-card:focus-visible::after {
+  background: linear-gradient(
+    0deg,
+    rgba(32, 75, 43, 0.94),
+    rgba(6, 15, 8, 0.04) 70%
+  );
+}
+
+.realization-card-content,
+.home-project-card > div {
+  position: absolute;
+  z-index: 2;
+  left: clamp(22px, 2.2vw, 34px);
+  right: 95px;
+  bottom: clamp(24px, 2.5vw, 38px);
+}
+
+.realization-card-content > p {
+  margin-bottom: 9px;
+  color: var(--lime);
+  font:
+    700 8px "Manrope",
+    sans-serif;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.realization-card-content h2,
+.home .three-projects .home-project-card h3 {
+  margin: 0 0 7px !important;
+  color: #fff;
+  font:
+    600 clamp(24px, 2.2vw, 34px)/1.08 "Manrope",
+    sans-serif !important;
+  letter-spacing: -0.055em;
+}
+
+.realization-card-content > span,
+.home .three-projects .home-project-card p {
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+  font-size: 12px !important;
+}
+
+.realization-card-link .realization-year {
+  z-index: 3;
+  background: rgba(56, 102, 65, 0.95);
+}
+
+.card-arrow {
+  position: absolute;
+  z-index: 3;
+  right: clamp(20px, 2vw, 30px);
+  bottom: clamp(22px, 2.3vw, 34px);
+  display: grid;
+  width: 62px;
+  height: 62px;
+  place-items: center;
+  background: var(--green);
+  color: #fff;
+  font:
+    400 28px/1 Arial,
+    sans-serif;
+  opacity: 0;
+  transform: translateY(16px) scale(0.88);
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    opacity 0.25s ease,
+    transform 0.3s ease;
+}
+
+.realization-card-link:hover .card-arrow,
+.realization-card-link:focus-visible .card-arrow,
+.home-project-card:hover .card-arrow,
+.home-project-card:focus-visible .card-arrow {
+  background: var(--lime);
+  color: var(--ink);
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.realization-card-link:focus-visible,
+.home-project-card:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 3px;
+}
+
+.home .three-projects .home-project-card {
+  height: clamp(360px, 27vw, 410px);
+  min-height: 0;
+  aspect-ratio: auto;
+  box-shadow: none;
+  transition:
+    transform 0.32s ease,
+    box-shadow 0.32s ease;
+}
+
+.home .three-projects .home-project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: none;
+}
+
+.home .three-projects {
+  display: flex !important;
+  grid-template-columns: none !important;
+  padding: 10px 0 24px;
+  background: transparent;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-inline: contain;
+}
+
+.home .three-projects::-webkit-scrollbar {
+  display: none;
+}
+
+.home .three-projects .home-project-card {
+  flex: 0 0 calc((100% - 52px) / 3);
+  scroll-snap-align: start;
+}
+
+.home .project-slider-shell {
+  position: relative;
+  margin-top: 0;
+  background: transparent;
+}
+
+.home .home-projects-title {
+  margin: 62px 0 22px;
+  color: var(--forest);
+}
+
+.home .project-slider-shell .three-projects {
+  margin-top: 0;
+}
+
+.project-slider-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+.project-slider-controls {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  pointer-events: none;
+}
+
+.project-slider-button {
+  position: absolute;
+  top: 50%;
+  display: grid;
+  width: 46px;
+  height: 46px;
+  padding: 0 0 3px;
+  place-items: center;
+  border: 1px solid rgba(56, 102, 65, 0.38);
+  border-radius: 50%;
+  background: rgba(247, 248, 245, 0.94);
+  color: var(--forest);
+  font: 300 31px/1 Arial, sans-serif;
+  cursor: pointer;
+  pointer-events: auto;
+  transform: translateY(-50%);
+  box-shadow: 0 7px 20px rgba(16, 24, 18, 0.08);
+  transition: border-color 0.22s ease, background 0.22s ease,
+    color 0.22s ease, opacity 0.22s ease, transform 0.22s ease;
+}
+
+.project-slider-prev {
+  left: -23px;
+}
+
+.project-slider-next {
+  right: -23px;
+}
+
+.project-slider-button:hover,
+.project-slider-button:focus-visible {
+  border-color: var(--forest);
+  background: var(--forest);
+  color: #fff;
+  transform: translateY(-50%) scale(1.06);
+  outline: none;
+}
+
+.project-slider-button:disabled {
+  opacity: 0.18;
+  cursor: default;
+}
+
+.home .project-slider-footer .all-projects {
+  margin: 0 !important;
+}
+
+@media (max-width: 1100px) {
+  .projects-page .realization-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .home .three-projects .home-project-card {
+    flex-basis: calc((100% - 26px) / 2);
+  }
+}
+
+@media (max-width: 650px) {
+  .projects-page .realization-list {
+    grid-template-columns: 1fr;
+  }
+
+  .realization-card-link,
+  .home .three-projects .home-project-card {
+    min-height: 440px;
+    aspect-ratio: 0.84 / 1;
+  }
+
+  .home .three-projects .home-project-card {
+    flex-basis: 100%;
+    height: 350px;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .project-slider-footer {
+    margin-top: 6px;
+  }
+
+  .home .project-slider-shell {
+    margin-top: 0;
+  }
+
+  .home .home-projects-title {
+    margin-top: 42px;
+  }
+
+  .project-slider-prev {
+    left: 8px;
+  }
+
+  .project-slider-next {
+    right: 8px;
+  }
+
+  .card-arrow {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media (hover: none) {
+  .card-arrow {
+    opacity: 1;
+    transform: none;
+  }
+}

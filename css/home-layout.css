@@ -1,0 +1,109 @@
+.home{--home-gutter:max(28px,7vw)}.home .site-header{background:#f7f8f5}.home .green-projects{background:#f7f8f5!important;text-align:left}.home .green-intro{margin-left:0;margin-right:auto;text-align:left}.home .three-projects article{text-align:left}.home .reference-hero:after{background:linear-gradient(270deg,rgba(6,15,8,.8),rgba(6,15,8,.08) 72%)}.home .reference-hero>div{left:auto;right:var(--home-gutter);text-align:right}.home .green-projects,.home .map-realizations,.home .simple-contact{padding-left:var(--home-gutter)!important;padding-right:var(--home-gutter)!important}.home .green-projects .eyebrow.light{color:var(--green)!important}.home .green-intro h2{max-width:760px;font-size:clamp(30px,3.25vw,48px)!important;font-weight:500;line-height:1.16;letter-spacing:-.045em}.home .green-intro .green-emphasis{color:var(--green);font-weight:700}.home .green-intro>a{color:var(--green)!important;border-bottom-color:var(--green)!important;transition:color .22s ease,border-color .22s ease}.home .green-intro>a span{display:inline-block;transition:transform .22s ease}.home .green-intro>a:hover,.home .green-intro>a:focus-visible{color:var(--forest)!important;border-bottom-color:var(--forest)!important;outline:none}.home .green-intro>a:hover span,.home .green-intro>a:focus-visible span{transform:translateX(5px)}.home .map-realizations{background:#fff;color:var(--ink)}.home .map-realizations .eyebrow{color:var(--green)}.home .map-heading>p:last-child{color:#59645b}.home .map-heading,.home .green-intro{max-width:760px}@media(max-width:760px){.home{--home-gutter:22px}.home .reference-hero>div{left:var(--home-gutter);right:var(--home-gutter);text-align:right}.home .green-intro h2{font-size:32px!important;line-height:1.18}.home .map-heading{padding-left:0;padding-right:0}}
+
+/* Čistý začiatok stránky: fotografia pracuje s pohybom, sekcie ostávajú pokojné. */
+.home .reference-hero::after {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(4, 10, 5, 0.94) 0,
+      rgba(4, 10, 5, 0.78) 104px,
+      rgba(4, 10, 5, 0.48) 220px,
+      rgba(4, 10, 5, 0.2) 42%,
+      rgba(4, 10, 5, 0.05) 64%,
+      rgba(4, 10, 5, 0) 78%
+    ),
+    linear-gradient(270deg, rgba(6, 15, 8, 0.82), rgba(6, 15, 8, 0.08) 72%);
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  transition: background-color 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header .brand-tagline {
+  border-left-color: rgba(255, 255, 255, 0.42);
+  color: #fff;
+  transition: color 0.28s ease, border-color 0.28s ease;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header .main-nav > a:not(.nav-contact) {
+  color: #fff;
+  opacity: 0.88;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header .main-nav .nav-contact {
+  border: 1px solid var(--lime);
+  background: transparent;
+  color: #fff;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header .menu-toggle span { background: #fff; }
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled {
+  border-bottom-color: #e7eae5;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(16, 21, 16, 0.1);
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .brand-tagline {
+  border-left-color: #cfd5cc;
+  color: #111;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .main-nav > a:not(.nav-contact) {
+  color: var(--ink);
+  opacity: 0.65;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .main-nav > a.active:not(.nav-contact),
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .main-nav > a:hover:not(.nav-contact) { opacity: 1; }
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .main-nav .nav-contact {
+  border-color: var(--green);
+  background: var(--green);
+  color: #fff;
+}
+
+:is(.home, .about-page, .projects-page, .services-page) .site-header.is-scrolled .menu-toggle span { background: var(--ink); }
+
+.home .reference-hero {
+  height: 100vh;
+  min-height: 630px;
+}
+
+.home .reference-hero > img {
+  transform: scale(1.06);
+  transform-origin: center top;
+  will-change: transform;
+}
+
+.home .green-projects {
+  position: relative;
+}
+
+.home .green-projects > :not(.green-projects-photo) {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 760px) {
+  .home .reference-hero { height: 100svh; min-height: 560px; }
+
+  :is(.home, .about-page, .projects-page, .services-page) .site-header .main-nav.open > a:not(.nav-contact) {
+    color: var(--ink);
+    opacity: 0.78;
+  }
+
+  :is(.home, .about-page, .projects-page, .services-page) .site-header .main-nav.open .nav-contact {
+    border-color: var(--green);
+    background: var(--green);
+    color: #fff;
+  }
+}

@@ -1,0 +1,94 @@
+.home .simple-contact {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: clamp(40px, 8vw, 130px);
+  padding-top: clamp(65px, 7vw, 105px);
+  padding-bottom: clamp(65px, 7vw, 105px);
+  overflow: hidden;
+  isolation: isolate;
+  background: #111411;
+  color: #fff;
+}
+
+.home .simple-contact::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(8, 10, 8, .88), rgba(8, 10, 8, .48));
+}
+
+.home .simple-contact::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  background: url("../assets/optimized/projects/galvani-home.webp") center 58% / cover no-repeat;
+  filter: grayscale(1) brightness(.72) contrast(1.08);
+}
+
+.home .simple-contact-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.home .simple-contact h2 {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(46px, 6vw, 88px);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -.065em;
+}
+
+.home .simple-contact h2 span {
+  color: var(--lime);
+}
+
+.home .simple-contact-copy > p {
+  max-width: 610px;
+  margin: 32px 0 0;
+  color: rgba(255, 255, 255, .78);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.home .simple-contact > a {
+  position: relative;
+  z-index: 1;
+  min-width: 190px;
+  margin: 0 !important;
+  background: #fff !important;
+  color: var(--forest) !important;
+  box-shadow: 0 12px 28px rgba(17, 31, 20, .2);
+}
+
+.home .simple-contact > a:hover,
+.home .simple-contact > a:focus-visible {
+  background: var(--lime) !important;
+  color: var(--ink) !important;
+  box-shadow: 0 17px 34px rgba(17, 31, 20, .3);
+}
+
+@media (max-width: 760px) {
+  .home .simple-contact {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 35px;
+  }
+
+  .home .simple-contact h2 {
+    font-size: 47px;
+  }
+
+  .home .simple-contact-copy > p {
+    margin-top: 24px;
+    font-size: 15px;
+  }
+
+  .home .simple-contact > a {
+    width: max-content;
+  }
+}

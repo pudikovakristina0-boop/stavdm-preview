@@ -1,0 +1,42 @@
+/* Farebná identita StavDM: tmavá zelená pre navigačné a obsahové značky. */
+.eyebrow,
+.section-label,
+.project-history b,
+.service-list span,
+.contacts > .eyebrow {
+  color: var(--forest);
+}
+
+/* Na tmavom alebo obrazovom pozadí ostáva svetlý limetkový akcent. */
+.eyebrow.light,
+.page-title.dark .eyebrow,
+.reference-hero .eyebrow,
+.simple-contact .eyebrow,
+.project > div > p {
+  color: var(--lime) !important;
+}
+
+/* Sekcie na svetlom pozadí používajú charakteristickú tmavú zelenú. */
+.home .green-projects .eyebrow.light,
+.home .map-realizations .eyebrow {
+  color: var(--forest) !important;
+}
+
+.home .map-heading h2 {
+  max-width: 620px;
+  font-size: clamp(30px, 3.35vw, 50px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.055em;
+}
+
+.home .three-projects article {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 760px) {
+  .home .map-heading h2 {
+    font-size: 30px;
+    line-height: 1.14;
+  }
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fotogaléria stavebnej realizácie spoločnosti StavDM."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#386641" />
+    <title>Realizácia | StavDM</title>
+    <script src="js/i18n.js?v=20261020-3"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/realization-detail.css?v=20261003-5" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body class="realization-page detail-editorial">
+    <header class="site-header">
+      <a class="brand" href="index.html"
+        ><img src="assets/brand/StavDM_novelogo_1.png" alt="StavDM, s.r.o."
+      /></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Otvoriť menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-navigation" aria-label="Hlavná navigácia">
+        <a href="index.html">Domov</a><a href="o-nas.html">O nás</a
+        ><a class="active" href="projekty.html" aria-current="page">Realizácie</a
+        ><a href="sluzby.html">Služby</a
+        ><a class="nav-contact" href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="realization-detail">
+      <section class="detail-hero">
+        <div class="detail-hero-media">
+          <img id="detail-cover" alt="" />
+          <div class="detail-hero-shade"></div>
+        </div>
+        <div class="detail-hero-content">
+          <a class="detail-back" href="projekty.html">← Všetky realizácie</a>
+          <p id="detail-type"></p>
+          <h1 id="detail-title">Realizácia</h1>
+          <p class="detail-hero-description" id="detail-hero-description" hidden></p>
+          <div class="detail-meta">
+            <span id="detail-location"></span><span id="detail-year"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-summary">
+        <div>
+          <p class="eyebrow">O REALIZÁCII</p>
+          <h2>Kvalita viditeľná<br />v každom detaile.</h2>
+        </div>
+        <div class="detail-description">
+          <p id="detail-description"></p>
+          <dl>
+            <div>
+              <dt>Lokalita</dt>
+              <dd id="summary-location"></dd>
+            </div>
+            <div>
+              <dt>Rok</dt>
+              <dd id="summary-year"></dd>
+            </div>
+            <div>
+              <dt>Typ projektu</dt>
+              <dd id="summary-type"></dd>
+            </div>
+            <div>
+              <dt>Fotografie</dt>
+              <dd id="summary-count"></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="detail-gallery-section" aria-labelledby="gallery-title">
+        <header>
+          <div>
+            <p class="eyebrow">FOTOGALÉRIA</p>
+            <h2 id="gallery-title">Priebeh a výsledok realizácie.</h2>
+          </div>
+          <p id="gallery-count"></p>
+        </header>
+        <div class="detail-gallery" id="detail-gallery"></div>
+      </section>
+
+      <section class="site-contact-cta">
+        <div>
+          <p class="eyebrow">SPOLUPRÁCA</p>
+          <h2>Máte záujem<br />o spoluprácu?</h2>
+          <p>
+            Neváhajte nás kontaktovať. Radi s vami preberieme všetky možnosti a
+            detaily.
+          </p>
+        </div>
+        <a href="kontakt.html">Kontaktovať nás <span>→</span></a>
+      </section>
+    </main>
+
+    <main class="project-not-found" id="project-not-found" hidden>
+      <p class="eyebrow">REALIZÁCIA</p>
+      <h1>Projekt sa nenašiel.</h1>
+      <a href="projekty.html">Späť na všetky realizácie →</a>
+    </main>
+
+    <div
+      class="gallery-lightbox"
+      id="gallery-lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Náhľad fotografie"
+      hidden
+    >
+      <button class="lightbox-close" type="button" aria-label="Zavrieť náhľad">
+        ×
+      </button>
+      <button
+        class="lightbox-prev"
+        type="button"
+        aria-label="Predchádzajúca fotografia"
+      >
+        ←
+      </button>
+      <figure>
+        <img id="lightbox-image" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button
+        class="lightbox-next"
+        type="button"
+        aria-label="Nasledujúca fotografia"
+      >
+        →
+      </button>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer-main">
+        <div class="site-footer-brand">
+          <a href="index.html"><img src="assets/brand/stavDM_novelogo_22.png" alt="StavDM, s.r.o." /></a>
+          <p>Partner pre komerčné, priemyselné a verejné stavebné projekty.</p>
+        </div>
+        <div class="site-footer-contact">
+          <p>Kontakt</p>
+          <a href="mailto:majercik.l@stavdm.sk">majercik.l@stavdm.sk</a>
+          <a href="tel:+421908926645">+421 908 926 645</a>
+          <address>Konská 402<br />013 13 Rajecké Teplice</address>
+        </div>
+      </div>
+      <div class="site-footer-bottom">
+        <small>© <span id="year"></span> StavDM, s.r.o.</small>
+        <span>IČO: 438 523 19 · IČ DPH: SK 2022 511 953</span>
+      </div>
+    </footer>
+    <script src="js/projects-data.js?v=20261019-9"></script>
+    <script src="js/realization-detail.js?v=20261019-3"></script>
+    <script src="js/script.js?v=20261020-17"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+.home .project-overview {
+  padding: clamp(95px, 11vw, 165px) var(--home-gutter)
+    clamp(100px, 12vw, 175px);
+  background: #101510;
+  color: #fff;
+}
+
+.home .project-section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, .65fr);
+  gap: 8vw;
+  align-items: end;
+  margin-bottom: 62px;
+}
+
+.home .project-section-heading h2 {
+  margin: 0;
+  font-size: clamp(38px, 4.4vw, 64px);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: -.065em;
+}
+
+.home .project-section-heading > p {
+  max-width: 480px;
+  margin: 0 0 5px;
+  color: rgba(255, 255, 255, .64);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.home .year-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid rgba(255, 255, 255, .22);
+  border-left: 1px solid rgba(255, 255, 255, .22);
+}
+
+.home .year-grid article {
+  min-height: 310px;
+  padding: clamp(27px, 3vw, 42px);
+  border-right: 1px solid rgba(255, 255, 255, .22);
+  border-bottom: 1px solid rgba(255, 255, 255, .22);
+  transition: background .28s ease;
+}
+
+.home .year-grid article:hover {
+  background: rgba(106, 153, 78, .13);
+}
+
+.home .year-grid article > strong,
+.home .year-grid article > div strong {
+  color: var(--lime);
+  font: 600 clamp(31px, 3vw, 44px)/1 "Manrope", sans-serif;
+  letter-spacing: -.055em;
+}
+
+.home .year-grid article > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.home .year-grid article > div span {
+  padding: 8px 10px;
+  background: var(--lime);
+  color: var(--ink);
+  font: 800 8px "Manrope", sans-serif;
+  letter-spacing: .12em;
+}
+
+.home .year-grid ul {
+  margin: 45px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home .year-grid li {
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .11);
+  color: rgba(255, 255, 255, .7);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.home .year-current {
+  background: var(--forest);
+}
+
+@media (max-width: 900px) {
+  .home .year-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .home .project-section-heading {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 42px;
+  }
+
+  .home .year-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home .year-grid article {
+    min-height: auto;
+  }
+}

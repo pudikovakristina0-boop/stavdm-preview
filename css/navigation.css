@@ -1,0 +1,51 @@
+.main-nav > a {
+  transition:
+    color 0.22s ease,
+    opacity 0.22s ease,
+    background-color 0.22s ease,
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+.main-nav > a:not(.nav-contact):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 0.28s ease;
+}
+.main-nav > a:not(.nav-contact):hover:before,
+.main-nav > a:not(.nav-contact):focus-visible:before {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+.main-nav > a:not(.nav-contact):focus-visible {
+  outline: none;
+  color: var(--forest);
+  opacity: 1;
+}
+.main-nav .nav-contact:hover,
+.main-nav .nav-contact:focus-visible {
+  background: #2d5637;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 16px rgba(56, 102, 65, 0.2);
+  outline: none;
+}
+.main-nav > a.active:not(.nav-contact):before {
+  display: none;
+}
+@media (max-width: 760px) {
+  .main-nav > a:not(.nav-contact):before {
+    bottom: -6px;
+    right: auto;
+    width: 34px;
+  }
+  .main-nav .nav-contact:hover,
+  .main-nav .nav-contact:focus-visible {
+    transform: none;
+  }
+}

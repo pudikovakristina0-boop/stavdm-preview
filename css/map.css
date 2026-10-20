@@ -1,0 +1,280 @@
+.map-realizations {
+  display: block;
+  padding: 115px max(24px, 6vw);
+  background: #f7f8f5;
+}
+
+.map-heading {
+  max-width: 720px;
+  margin-bottom: 38px;
+}
+
+.map-heading h2 {
+  margin-bottom: 20px;
+  font-size: clamp(38px, 4.6vw, 68px);
+  line-height: 1.03;
+  letter-spacing: -.07em;
+}
+
+.map-heading > p:last-child {
+  color: #59645b;
+  font-size: 16px;
+}
+
+.map-scroll {
+  width: 100%;
+}
+
+.photo-map {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* Na desktope wrapper nemení existujúce absolútne rozmiestnenie bodov. */
+.map-location-list {
+  display: contents;
+}
+
+.map-base {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.photo-pin {
+  position: absolute;
+  z-index: 2;
+  width: clamp(38px, 3.6vw, 54px);
+  height: clamp(38px, 3.6vw, 54px);
+  padding: 0;
+  border: clamp(2px, .25vw, 4px) solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 7px 20px rgba(22, 39, 25, .24);
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  transition: transform .2s, box-shadow .2s, z-index 0s;
+}
+
+.photo-pin::before {
+  position: absolute;
+  inset: -7px;
+  content: "";
+  border-radius: 50%;
+}
+
+.photo-pin:hover,
+.photo-pin:focus-visible,
+.photo-pin.active {
+  z-index: 20;
+  outline: none;
+  box-shadow: 0 8px 24px rgba(22, 39, 25, .32);
+  transform: translate(-50%, -50%) scale(1.12);
+}
+
+.photo-pin:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 4px;
+}
+
+.photo-pin > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.photo-pin > span {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  width: min(230px, calc(100vw - 48px));
+  padding: 14px 16px;
+  border-radius: 9px;
+  background: #111711;
+  box-shadow: 0 12px 32px rgba(13, 27, 16, .25);
+  color: #fff;
+  font: 500 11px/1.45 "DM Sans", sans-serif;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(-50%, 8px) scale(.92);
+  transition: opacity .2s, transform .2s, visibility .2s;
+}
+
+.photo-pin > span::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border: 6px solid transparent;
+  border-top-color: #111711;
+  content: "";
+}
+
+.photo-pin > span b {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--lime);
+  font: 700 13px "Manrope", sans-serif;
+}
+
+.photo-pin:hover > span,
+.photo-pin:focus-visible > span,
+.photo-pin.active > span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0) scale(1);
+}
+
+.pin-odolena { left: 20.63%; top: 26.16%; }
+.pin-kralupy { left: 21.87%; top: 28.18%; }
+.pin-prerov { left: 46.11%; top: 43.52%; }
+.pin-bratislava { left: 40.42%; top: 80.50%; }
+.pin-casta { left: 41.43%; top: 82.41%; }
+.pin-samorin { left: 41.09%; top: 84.89%; }
+.pin-bernolakovo { left: 42.28%; top: 85.79%; }
+.pin-rajecke { left: 56.99%; top: 50.28%; }
+.pin-zilina { left: 57.78%; top: 52.09%; }
+.pin-rosina { left: 56.60%; top: 58.17%; }
+.pin-liptov { left: 68.15%; top: 57.61%; }
+.pin-tatry { left: 76.21%; top: 52.20%; }
+.pin-kosice { left: 83.65%; top: 66.63%; }
+
+@media (max-width: 760px) {
+  .map-realizations {
+    padding: 76px 22px 82px;
+  }
+
+  .map-heading {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .map-heading h2 {
+    font-size: clamp(37px, 10.8vw, 48px);
+  }
+
+  .map-scroll {
+    overflow: visible;
+    padding: 0;
+  }
+
+  .photo-map {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .map-base {
+    margin-bottom: 18px;
+    border-radius: 12px;
+  }
+
+  /* Na mobile sa fotografie lokalít menia na usporiadaný dotykový pás.
+     Mapa tak ostáva čitateľná a jednotlivé lokality sa neprekrývajú. */
+  .map-location-list {
+    display: grid;
+    grid-auto-columns: minmax(238px, 78vw);
+    grid-auto-flow: column;
+    gap: 11px;
+    padding: 3px 2px 15px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 2px;
+    scroll-snap-type: inline mandatory;
+    scrollbar-color: rgba(56, 102, 65, .45) transparent;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .photo-pin {
+    position: relative;
+    inset: auto !important;
+    left: auto !important;
+    top: auto !important;
+    display: grid;
+    width: 100%;
+    height: auto;
+    min-height: 96px;
+    padding: 11px;
+    grid-template-columns: 68px minmax(0, 1fr);
+    gap: 12px;
+    align-items: center;
+    border: 1px solid rgba(56, 102, 65, .16);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(22, 39, 25, .1);
+    text-align: left;
+    transform: none;
+    scroll-snap-align: start;
+  }
+
+  .photo-pin::before {
+    display: none;
+  }
+
+  .photo-pin:hover,
+  .photo-pin:focus-visible,
+  .photo-pin.active {
+    z-index: 2;
+    border-color: rgba(56, 102, 65, .55);
+    box-shadow: 0 10px 25px rgba(22, 39, 25, .16);
+    transform: none;
+  }
+
+  .photo-pin:focus-visible {
+    outline: 3px solid var(--lime);
+    outline-offset: 2px;
+  }
+
+  .photo-pin > img {
+    width: 68px;
+    height: 68px;
+    border-radius: 9px;
+  }
+
+  .photo-pin > span,
+  .photo-pin:hover > span,
+  .photo-pin:focus-visible > span,
+  .photo-pin.active > span {
+    position: static;
+    width: auto;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #536057;
+    font: 500 11px/1.45 "DM Sans", sans-serif;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .photo-pin > span::after {
+    display: none;
+  }
+
+  .photo-pin > span b {
+    margin-bottom: 4px;
+    color: var(--forest);
+    font-size: 13px;
+  }
+
+  .map-location-list::after {
+    width: 8px;
+    content: "";
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-pin,
+  .photo-pin > span {
+    transition: none;
+  }
+}
