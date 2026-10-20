@@ -425,6 +425,10 @@
     margin: 0 0 27px;
   }
 
+  .contact-directory-links a::after {
+    display: none;
+  }
+
   .contact-company {
     margin-top: 4px;
   }
