@@ -168,7 +168,7 @@ html body.projects-page .projects-hero .projects-hero-copy::after {
     var(--site-hero-even-shade);
 }
 
-html body.realization-page .detail-hero .detail-hero-shade {
+html body.realization-page:not(.detail-editorial) .detail-hero .detail-hero-shade {
   background:
     var(--site-hero-top-shade),
     linear-gradient(0deg, rgba(7, 17, 9, .86), rgba(7, 17, 9, .06) 68%),
@@ -757,7 +757,7 @@ html body.realization-page .detail-hero .detail-hero-shade {
       var(--site-hero-even-shade-mobile);
   }
 
-  html body.realization-page .detail-hero .detail-hero-shade {
+  html body.realization-page:not(.detail-editorial) .detail-hero .detail-hero-shade {
     background:
       var(--site-hero-top-shade-mobile),
       linear-gradient(0deg, rgba(7, 17, 9, .9), rgba(7, 17, 9, .12) 68%),

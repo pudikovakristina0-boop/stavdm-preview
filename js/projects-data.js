@@ -67,22 +67,22 @@ window.stavdmProjects = [
     "type": "Rezidenčný projekt",
     "description": "Kompletné dokončovacie práce na rodinnom dome v rozsahu 145 m² vrátane interiérových povrchov a konštrukcií.",
     "cover": "assets/optimized/projects/rodinny-dom-rosina.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48.jpeg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48.jpeg",
     "photos": [
       "assets/optimized/projects/rodinny-dom-rosina.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.43%20%282%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.43%20%284%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.44%20%281%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.45%20%282%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%285%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%287%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%288%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.47%20%284%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%281%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%2812%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%289%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.49.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinny%CC%81%20Dom%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.59.jpeg"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.43%20%282%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.43%20%284%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.44%20%281%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.45%20%282%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%285%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%287%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.46%20%288%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.47%20%284%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%281%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%2812%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.48%20%289%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.49.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Rodinn%C3%BD%20Dom%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.32.59.jpeg"
     ]
   },
   {
@@ -119,16 +119,16 @@ window.stavdmProjects = [
     "type": "Polyfunkčný projekt",
     "description": "Sadrokartónové práce na polyfunkčnom komplexe Čerešne v rozsahu 7 500 m².",
     "cover": "assets/optimized/projects/ceresne-residence.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/C%CC%8Ceres%CC%8Cne%20Residence%20uvodna%20foto.jpg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/%C4%8Cere%C5%A1ne%20Residence%20uvodna%20foto.jpg",
     "photos": [
       "assets/optimized/projects/ceresne-residence.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%281%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%282%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%283%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%284%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2014.24.40%20%283%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/C%CC%8Ceres%CC%8Cne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2014.24.41%20%282%29.jpeg"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%281%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%282%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%283%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10%20%284%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2013.44.10.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2014.24.40%20%283%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/%C4%8Cere%C5%A1ne%20Residence%20/WhatsApp%20Image%202026-08-15%20at%2014.24.41%20%282%29.jpeg"
     ]
   },
   {
@@ -140,19 +140,19 @@ window.stavdmProjects = [
     "type": "Verejný projekt",
     "description": "Rekonštrukcia fasády železničnej stanice, omietky, maľby a nátery v rozsahu 270 m².",
     "cover": "assets/optimized/projects/tatranska-lomnica.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/uvodna%20foto%20%282%29.jpg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/uvodna%20foto%20%282%29.jpg",
     "photos": [
       "assets/optimized/projects/tatranska-lomnica.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/300758761_772677630674996_769785091222660999_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/300802128_958219032247487_2113270356255802951_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/301281280_395444529379517_2386587488067829819_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/313847644_666298198493803_4487217627599502486_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/315009581_952047295763515_8505025664471117474_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/315320747_844755493415420_1009769988115756089_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/315516388_538463414476921_720073867773617863_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/315891021_1195667241364577_493697668437819083_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/316242026_587346913151396_4102190224279923181_n.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatranska%CC%81%20Lomnica%20Z%CC%8Celeznic%CC%8Cna%CC%81%20stanica/317217824_3353628238255997_5994682085607545081_n.jpg"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/300758761_772677630674996_769785091222660999_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/300802128_958219032247487_2113270356255802951_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/301281280_395444529379517_2386587488067829819_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/313847644_666298198493803_4487217627599502486_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/315009581_952047295763515_8505025664471117474_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/315320747_844755493415420_1009769988115756089_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/315516388_538463414476921_720073867773617863_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/315891021_1195667241364577_493697668437819083_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/316242026_587346913151396_4102190224279923181_n.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Tatransk%C3%A1%20Lomnica%20%C5%BDelezni%C4%8Dn%C3%A1%20stanica/317217824_3353628238255997_5994682085607545081_n.jpg"
     ]
   },
   {
@@ -164,7 +164,7 @@ window.stavdmProjects = [
     "type": "Rezidenčný projekt",
     "description": "Zateplenie a realizácia fasády bytového projektu Galvani Home v rozsahu 4 650 m².",
     "cover": "assets/optimized/projects/galvani-home.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Galvani%20Home/u%CC%81vodna%CC%81%20foto.jpg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Galvani%20Home/%C3%BAvodn%C3%A1%20foto.jpg",
     "photos": [
       "assets/optimized/projects/galvani-home.webp",
       "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Galvani%20Home/WhatsApp%20Image%202026-08-15%20at%2014.12.44%20%282%29.jpeg",
@@ -185,7 +185,7 @@ window.stavdmProjects = [
     "type": "Komerčný projekt",
     "description": "Murárske a súvisiace stavebné práce na administratívnom komplexe Lakeside Park II.",
     "cover": "assets/optimized/projects/lakeside-park-ii.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Lakeside%20Park%20II/uvodna%CC%81%20foto.jpeg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Lakeside%20Park%20II/uvodn%C3%A1%20foto.jpeg",
     "photos": [
       "assets/optimized/projects/lakeside-park-ii.webp",
       "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Lakeside%20Park%20II/WhatsApp%20Image%202026-08-15%20at%2014.15.50%20%281%29.jpeg",
@@ -214,13 +214,13 @@ window.stavdmProjects = [
     "cover": "assets/optimized/projects/zs-ms-zastranie.webp",
     "hero": "assets/projects/zs-ms-zastranie-hero-professional.png",
     "photos": [
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20201026_121353.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20200929_110605.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20200930_101228.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20201009_103406.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20201012_103206.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20201026_121353.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20200929_110605.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20200930_101228.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20201009_103406.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20201012_103206.jpg",
       "assets/optimized/projects/zs-ms-zastranie.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Za%CC%81stranie%20Z%CC%8Cilina/IMG_20201026_121155.jpg"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Z%C3%A1stranie%20%C5%BDilina/IMG_20201026_121155.jpg"
     ]
   },
   {
@@ -232,20 +232,20 @@ window.stavdmProjects = [
     "type": "Rezidenčný projekt",
     "description": "Stavebné a dokončovacie práce na rezidenčnom projekte Euroterrace v Žiline.",
     "cover": "assets/optimized/projects/euroterrace-zilina.webp",
-    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47.jpeg",
+    "hero": "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47.jpeg",
     "photos": [
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%2810%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%282%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%285%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%287%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%288%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%289%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%281%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%2810%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%282%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%285%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%287%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%288%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.46%20%289%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%281%29.jpeg",
       "assets/optimized/projects/euroterrace-zilina.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%287%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%288%29.jpeg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20Z%CC%8Cilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.48%20%281%29.jpeg"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%287%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.47%20%288%29.jpeg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Euroterrace%20%C5%BDilina%20/WhatsApp%20Image%202026-08-15%20at%2014.25.48%20%281%29.jpeg"
     ]
   },
   {
@@ -259,11 +259,11 @@ window.stavdmProjects = [
     "cover": "assets/optimized/projects/zs-ms-budatin.webp",
     "hero": "assets/projects/zs-ms-budatin-hero-professional.png",
     "photos": [
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Budati%CC%81n%20Z%CC%8Cilina/IMG_20180424_173107.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Budati%CC%81n%20Z%CC%8Cilina/IMG_20171117_130141.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Budati%CC%81n%20Z%CC%8Cilina/IMG_20171117_130228.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Budati%CC%81n%20Z%CC%8Cilina/IMG_20171129_092614.jpg",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/ZS%CC%8C%20-%20MS%CC%8C%20Budati%CC%81n%20Z%CC%8Cilina/IMG_20180424_172933.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Budat%C3%ADn%20%C5%BDilina/IMG_20180424_173107.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Budat%C3%ADn%20%C5%BDilina/IMG_20171117_130141.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Budat%C3%ADn%20%C5%BDilina/IMG_20171117_130228.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Budat%C3%ADn%20%C5%BDilina/IMG_20171129_092614.jpg",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Z%C5%A0%20-%20M%C5%A0%20Budat%C3%ADn%20%C5%BDilina/IMG_20180424_172933.jpg",
       "assets/optimized/projects/zs-ms-budatin.webp"
     ]
   },
@@ -278,14 +278,14 @@ window.stavdmProjects = [
     "cover": "assets/optimized/projects/akademicka-kniznica-martin.webp",
     "hero": "assets/projects/akademicka-kniznica-hero-professional.png",
     "photos": [
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%2017.JPG",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%201.JPG",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%2011.JPG",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%2012.JPG",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%2015.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%2017.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%201.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%2011.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%2012.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%2015.JPG",
       "assets/optimized/projects/akademicka-kniznica-martin.webp",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%206.JPG",
-      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademicka%CC%81%20kniz%CC%8Cnica%20Martin%20/Kazet.strop%209.JPG"
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%206.JPG",
+      "assets/projects/gallery/drive-download-20260822T163134Z-1-001/Akademick%C3%A1%20kni%C5%BEnica%20Martin%20/Kazet.strop%209.JPG"
     ]
   }
 ];

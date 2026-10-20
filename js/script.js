@@ -359,7 +359,7 @@ if (document.querySelector('.brand')) {
 }
 const siteSystemStyles = document.createElement('link');
 siteSystemStyles.rel = 'stylesheet';
-siteSystemStyles.href = 'css/site-system.css?v=20261020-13';
+siteSystemStyles.href = 'css/site-system.css?v=20261020-14';
 
 const initializeSiteMotion = () => {
   const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
