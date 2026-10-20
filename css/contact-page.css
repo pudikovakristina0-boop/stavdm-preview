@@ -81,18 +81,10 @@
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-.contact-form-intro > a span {
-  font-size: 17px;
-  line-height: 1;
-  transition: transform 0.2s ease;
-}
-
 .contact-form-intro > a:hover {
   color: var(--green);
   border-color: var(--green);
 }
-
-.contact-form-intro > a:hover span { transform: translate(3px, -3px); }
 
 .contact-form-panel form {
   width: 100%;

@@ -198,6 +198,14 @@
 }
 
 @media (max-width: 700px) {
+  .home-projects-panel .project-slider-prev {
+    left: -23px;
+  }
+
+  .home-projects-panel .project-slider-next {
+    right: -23px;
+  }
+
   .company-stats {
     width: calc(100% - 44px);
     min-height: 0;
